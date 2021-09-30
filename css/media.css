@@ -1,0 +1,64 @@
+@media all and (max-width: 800px) {
+	.ph-nav-menu {
+		display: block;
+	}
+
+	.service-name {
+		margin-left: -6px;
+	}
+
+	header {
+		justify-content: center;
+	}
+
+	header > nav ul li {
+		display: none;
+	}
+
+	.content {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.window {
+		margin-top: 15px;
+	}
+
+	.window-content-hr {
+		display: block;
+	}
+
+	.item-in-window-content img {
+		width: 80%;
+		height: auto;
+		margin-left: 10%;
+	}
+
+	.gallery-cell {
+		width: 100%;
+	}
+
+	.gallery-cell img.gc-img {
+		display: ;
+	}
+
+	.gallery-cell img.ph-gc-img {
+		display: ;
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media all and (max-width: 350px) {
+	.service-name > img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media all and (min-width: 900px) {
+	.window-content > h1 {
+		font-size: 23px;
+		text-align: left;
+	}
+}
